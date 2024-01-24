@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+   /* Set a background color for the entire page */
+  body {
+    /* background-color: #f0f0f0; */
+    background-image: url(./Image/paul-earle-wVjd0eWNqI8-unsplash.jpg);
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 250px;;
+  }
+  
+  /* Style the login form container */
+  #reg-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border:#0056b3 5px;
+  }
+
+  #login{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border:#0056b3 5px;
+
+  }
+
+  .change-password{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    border:#0056b3 5px;
+  }
+  
+  /* Style the form title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the form inputs and submit button */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  } 
